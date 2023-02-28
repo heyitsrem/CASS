@@ -1,0 +1,183 @@
+html {
+    scroll-behavior: smooth
+}
+body {
+    background-color: #F5F9FF !important;
+    font-family: 'Baloo 2' !important;
+}
+.sti_logo {
+    width: 100px;
+    margin-left: 25px;
+    margin-top: 7px;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.textnav {
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: 3.5%;
+    color:black;
+    opacity: 0.5;
+}
+.textnav:hover {
+    opacity: 1;
+}
+.active {
+    opacity: 1;
+}
+.intro {
+    margin-top: 150px;
+    margin-left: 6%;
+}
+.introtext {
+    font-weight: 600;
+    font-size: 60;
+}
+.introp {
+    color: #1D2433;
+    opacity: 0.5;
+    font-size: 15;
+    font-weight: bold;
+}
+.counsel-image {
+    float: right;
+    margin-top: -25%;
+    margin-right: -18%;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.circle {
+    float: right;
+    height: 657px;
+    width: 420px;
+    background-color: #225AA7;
+    border-top-right-radius: 0%;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 60px;
+}
+.get-started {
+    position: absolute;
+    font-weight: 500;
+    font-size: 15;
+    text-align: center;
+    margin-left: 7%;
+    height: 52px;
+    width: 245px;
+    margin-top: 2%;
+    border-radius: 36px;
+    background-color:#1574F6;
+}
+.get-started:hover {
+    opacity: 0.9;
+}
+#get-started {
+    color:white;
+    font-weight: 500;
+    position: absolute;
+    margin-top: 6%;
+    margin-left: 35%;
+}
+.box {
+    text-decoration: none;
+    background-color: #1574F6;
+    border-radius: 4px;
+    height: 68px;
+    width: 450px;
+    text-align: center;
+}
+#box-text {
+    position: absolute;
+    text-decoration: none;
+    margin-top:3%;
+    margin-left: 23%;
+}
+#box {
+    text-decoration: none;
+    color:white;
+    margin-top: 10px;
+}
+#box:hover {
+    opacity: 0.9;
+}
+.button {
+  color: #fff;
+  border: 2px solid #1574F6;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.button:hover {
+  opacity: 0.9;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.9);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 60%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.popup .close:hover {
+  opacity: 0.5;
+}
+.popup .content {
+  max-height: 30%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px){
+  .box{
+    width: 70%;
+  }
+  .popup{
+    width: 70%;
+  }
+}
