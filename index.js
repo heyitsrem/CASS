@@ -14,3 +14,6 @@ function changeIcon() {
     x.innerHTML = "<i class=\"fa-solid fa-eye\" style=\"cursor: pointer; margin-left: 390px; margin-top: -20px;\" onclick=\"myFunction()\"></i>";
   }
 }
+function logoutFunction() {
+  window.location.href="index.html";  
+}

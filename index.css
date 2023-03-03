@@ -170,6 +170,109 @@ input[type=password], select {
   border-bottom-right-radius: 4px;
   width: 30%;
 }
+.left-infos {
+  height: 752px;
+  width: 280px;
+  background-color: #4F99FF;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 0px;
+}
+.info-links {
+  position: absolute;
+  text-align: justify;
+  margin-left: 25px;
+  margin-top: 26px;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+}
+.link-texts {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 19px;
+  text-decoration: none;
+  color:#1D2433;
+}
+.bigger-infos {
+  margin-top: -56%;
+  height: 500px;
+}
+.personal-info {
+  position: absolute;
+  width: 343px;
+  height: 320px;
+  background-color: rgba(255, 242, 0, 0.5);
+  border-radius: 20px;
+  margin-left: 300px;
+  box-shadow: 0px 10px 25px -10px;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.personal-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 37px;
+  width: 204px;
+  height: 181px;
+}
+.personal-text {
+  text-align: center;
+  color: black;
+  line-height: 90px;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+}
+.session-records {
+  position: absolute;
+  width: 343px;
+  height: 320px;
+  background-color: rgba(255, 242, 0, 0.5);
+  box-shadow: 0px 10px 25px -10px;
+  border-radius: 20px;
+  margin-left: 700px;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.prog-reps {
+  position: absolute;
+  width: 343px;
+  height: 320px;
+  background-color: rgba(255, 242, 0, 0.5);
+  box-shadow: 0px 10px 25px -10px;
+  border-radius: 20px;
+  margin-left: 495px;
+  margin-top: 30%;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.log-out {
+  position: absolute;
+  background-color: #1574F6;
+  border: 0px;
+  border-radius: 4px;
+  color:white;
+  width: 207px;
+  margin-top: 370px;
+  height: 48px;
+  font-weight: 700;
+  font-size: large;
+}
 /* input[type=submit] {
   width: 249px;
   height: 62px;
