@@ -15,5 +15,5 @@ function changeIcon() {
   }
 }
 function logoutFunction() {
-  window.location.href="index.html";  
+  window.location.href="/CASS";  
 }
